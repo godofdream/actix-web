@@ -26,4 +26,4 @@ pin-project = "0.4.6"
 
 [dev-dependencies]
 actix-rt = "1.0.0"
-env_logger = "0.6"
+env_logger = "0.7"
