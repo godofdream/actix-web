@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: cargo
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: v_htmlescape
+    versions:
+    - 0.12.0
+  - dependency-name: actix-codec
+    versions:
+    - 0.3.0
+  - dependency-name: actix-utils
+    versions:
+    - 2.0.0
